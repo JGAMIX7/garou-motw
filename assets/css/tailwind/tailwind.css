@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+   --font-inter: 'Inter', sans-serif;
+
+   --color-black: #000000;
+   --color-half-black: rgba(0, 0, 0, 0.4);
+   --color-red: #E1002B;
+   --color-yellow: #F2C200;
+   --color-white: #ffffff;
+}
+
+@layer base {
+   html {
+      scroll-behavior: smooth;
+   }
+
+   body {
+      font-family: var(--font-inter);
+      color: var(--color-black);
+      background-color: var(--color-yellow);
+      font-size: 1.125rem
+   }
+
+   h1, h2, h3, h4, h5, h6 {
+      font-weight: 700;
+   }
+}
+
+@layer components {
+   .marquee {
+      display: flex;
+      animation: marquee 25s linear infinite;
+   }
+   
+   @keyframes marquee {
+      from {
+         transform: translateX(25%);
+      }
+      to {
+         transform: translateX(calc(-650%));
+      }
+   }
+
+   .marquee-gallery {
+      display: flex;
+      animation: marquee-gallery 35s linear infinite;
+   }
+   
+   @keyframes marquee-gallery {
+      from {
+         transform: translateX(0%);
+      }
+      to {
+         transform: translateX(calc(-990%));
+      }
+   }
+
+
+   .text-textured {
+      background-image: url('/assets/images/background/grunge-background.jpg');
+      background-size: cover;
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+   }
+
+   .menu-characters img {
+      position: relative;
+      width: 50px;
+      height: auto;
+      object-fit: cover;
+      object-position: center;
+   }
+
+   .menu-characters img:after{
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      margin: 15px 20px;
+      background-color: var(--red);
+   }
+}

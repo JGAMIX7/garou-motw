@@ -1,0 +1,167 @@
+[
+  {
+    "name": "Rock Howard",
+    "icon": "assets/images/characters/icons/Rock.webp",
+    "bio": "The biological son of Geese Howard and protagonist of the game, has strong bonds with Terry Bogard, his adoptive father, and has had a huge opposition towards Geese since the death of his mother.",
+    "fightingStyle": "Martial Arts",
+    "birth": "June 24",
+    "bloodtype": "B",
+    "likes": "The cap Terry gave him, his bike",
+    "images": [
+      "assets/images/characters/background/Rock-set.webp",
+      "assets/images/characters/standing/Rock.gif",
+      "assets/images/characters/victory-pose/Rock-victory-pose.gif"
+    ]
+  },
+  {
+    "name": "Kim Dong Hwan",
+    "icon": "assets/images/characters/icons/DongHwan.webp",
+    "bio": "The elder son of Kim Kaphwan, enters to the tournament to continue his father's legacy, although he doesn't take training too seriously.",
+    "fightingStyle": "Taekwondo",
+    "birth": "June 13",
+    "bloodtype": "O",
+    "likes": "The laddies, high-cut-sneakers",
+    "images": [
+      "assets/images/characters/background/DongHwan-set.webp",
+      "assets/images/characters/standing/DongHwan.gif",
+      "assets/images/characters/victory-pose/DongHwan-victory-pose.gif"
+    ]
+  },
+  {
+    "name": "Hotaru Futaba",
+    "icon": "assets/images/characters/icons/Hotaru.webp",
+    "bio": "A girl daughter of martial artists, enters to the Maximum Mayhem for search her brother, in companion of her pet marten Itokatsu.",
+    "fightingStyle": "Soft kung fu styles",
+    "birth": "May 11",
+    "bloodtype": "A",
+    "likes": "Collecting cute ribbons, Itokatsu",
+    "images": [
+      "assets/images/characters/background/Hotaru-set.webp",
+      "assets/images/characters/standing/Hotaru.gif",
+      "assets/images/characters/victory-pose/Hotaru-victory-pose.gif"
+    ]
+  },
+  {
+    "name": "Marco Rodrigues",
+    "icon": "assets/images/characters/icons/Marco.webp",
+    "fightingStyle": "Kyokugen Karate",
+    "birth": "September 4",
+    "bloodtype": "A",
+    "likes": "His black belt and dojo sign",
+    "bio": "A.K.A. Khushnood Butt, a Brazilian practitioner of the Kyokugenryu Karate and disciple of Ryo Sakazaki, enters to the Maximum Mayhem to prove the might of his martial art.",
+    "images": [
+      "assets/images/characters/background/Marco-set.webp",
+      "assets/images/characters/standing/Marco.gif",
+      "assets/images/characters/victory-pose/Marco-victory-pose.gif"
+    ]
+  },
+  {
+    "name": "Hokutoramu",
+    "icon": "assets/images/characters/icons/Hokutomaru.webp",
+    "bio": "A practitioner of the Shiranui-ryuu Ninjutsu and disciple of Andy Bogard, enters to the Maximum Mayhem at the request of his master.",
+    "fightingStyle": "Koppou and Shiranui-ryuu Ninjutsu",
+    "birth": "October 7",
+    "bloodtype": "O",
+    "likes": "Hot springs, his master and all the Shiranui-ryuu people",
+    "images": [
+      "assets/images/characters/background/Hokutomaru-set.webp",
+      "assets/images/characters/standing/Hokutomaru.gif",
+      "assets/images/characters/victory-pose/Hokutomaru-victory-pose.gif"
+    ]
+  },
+  {
+    "name": "Kevin Rian",
+    "icon": "assets/images/characters/icons/Kevin.webp",
+    "bio": "A S.W.A.T. policeman, enters to the tournament to take revenge on the man who killed his partner, in the company of his colleague's son, Marky.",
+    "fightingStyle": "SWAT mercenary arts",
+    "birth": "December 17",
+    "bloodtype": "B",
+    "likes": "Friends",
+    "images": [
+      "assets/images/characters/background/Kevin-set.webp",
+      "assets/images/characters/standing/Kevin.gif",
+      "assets/images/characters/victory-pose/Kevin-victory-pose.gif"
+    ]
+  },  {
+    "name": "Freeman",
+    "icon": "assets/images/characters/icons/Freeman.webp",
+    "fightingStyle": "Ga-ryuu Kakutoujutsu 'Zanki'",
+    "birth": "November 21",
+    "bloodtype": "Unknown",
+    "likes": "His drill necklace, the edge of needles and blades",
+    "bio": "A serial killer, who enters to the Maximum Mayhem to kill stronger opponents. One of his victims is Kevin Rian's police partner.",
+    "images": [
+      "assets/images/characters/background/Freeman-set.webp",
+      "assets/images/characters/standing/Freeman.gif",
+      "assets/images/characters/victory-pose/Freeman-victory-pose.gif"
+    ]
+  },
+  {
+    "name": "Tizoc",
+    "icon": "assets/images/characters/icons/Tizoc.webp",
+    "bio": "A.K.A. The Griffon Mask, a famous pro wrestler, who has gained exceptional favoritism amongst all children audience.",
+    "fightingStyle": "Pro wrestling",
+    "birth": "April 25",
+    "bloodtype": "O",
+    "likes": "His griffon mask",
+    "images": [
+      "assets/images/characters/background/Tizoc-set.webp",
+      "assets/images/characters/standing/Tizoc.gif",
+      "assets/images/characters/victory-pose/Tizoc-victory-pose.gif"
+    ]
+  },
+  {
+    "name": "B. Jenet",
+    "icon": "assets/images/characters/icons/Jenet.webp",
+    "bio": "The leader of the Lillien Knights, a group of pirates. She entered to the Maximum Mayhem to rob him of anything valuable that Kain R. Heinlein might be keeping in his mansion.",
+    "fightingStyle": "LK Arts",
+    "birth": "January 23",
+    "bloodtype": "AB",
+    "likes": "Her comrades in the Lilien Knights, and state-of-the-art Lilien Knights weaponry",
+    "images": [
+      "assets/images/characters/background/Jenet-set.webp",
+      "assets/images/characters/standing/Jenet.gif",
+      "assets/images/characters/victory-pose/Jenet-victory-pose.gif"
+    ]
+  },
+  {
+    "name": "Gato",
+    "icon": "assets/images/characters/icons/Gato.webp",
+    "bio": "A martial artist and criminal, who seeks revenge for the murder of his mother killed by his father.",
+    "fightingStyle": "Hard kung fu styles",
+    "birth": "May 27",
+    "bloodtype": "A",
+    "likes": "His mother's necklace",
+    "images": [
+      "assets/images/characters/background/Gato-set.webp",
+      "assets/images/characters/standing/Gato.gif",
+      "assets/images/characters/victory-pose/Gato-victory-pose.gif"
+    ]
+  },  {
+    "name": "Kim Jae Hoon",
+    "icon": "assets/images/characters/icons/JaeHoon.webp",
+    "bio": "The younger son of Kim Kaphwan, is very serious, diligent in his studies, and a charismatic man. He inherited from his father the strong sense of justice, and enters to the tournament to continue his legacy, like his elder brother.",
+    "fightingStyle": "Taekwondo",
+    "birth": "December 29",
+    "bloodtype": "A",
+    "likes": "His family, small animals (rabbits, hamsters, ferrets, etc.)",
+    "images": [
+      "assets/images/characters/background/JaeHoon-set.webp",
+      "assets/images/characters/standing/JaeHoon.gif",
+      "assets/images/characters/victory-pose/JaeHoon-victory-pose.gif"
+    ]
+  },  {
+    "name": "Terry Bogard",
+    "icon": "assets/images/characters/icons/Terry.webp",
+    "fightingStyle": "Martial arts",
+    "birth": "March 15",
+    "bloodtype": "O",
+    "likes": "Keepsakes from his father, vintage jeans",
+    "bio": "South Town's very own Legendary Hungry Wolf. Following his epic encounter with archrival Geese Howard, he takes young Rock (Geese's son) under his wing",
+    "images": [
+      "assets/images/characters/background/Terry-set.webp",
+      "assets/images/characters/standing/Terry.gif",
+      "assets/images/characters/victory-pose/Terry-victory-pose.gif"
+    ]
+  }
+]
