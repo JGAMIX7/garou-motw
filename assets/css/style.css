@@ -223,9 +223,6 @@
   .mt-5 {
     margin-top: calc(var(--spacing) * 5);
   }
-  .mt-10 {
-    margin-top: calc(var(--spacing) * 10);
-  }
   .mt-12 {
     margin-top: calc(var(--spacing) * 12);
   }
@@ -273,9 +270,6 @@
   }
   .h-\[150px\] {
     height: 150px;
-  }
-  .h-\[244px\] {
-    height: 244px;
   }
   .h-\[250px\] {
     height: 250px;
@@ -448,40 +442,8 @@
   .uppercase {
     text-transform: uppercase;
   }
-  .shadow {
-    --tw-shadow: 0 1px 3px 0 var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 1px 2px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
-    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
-  }
-  .shadow-\[0\] {
-    --tw-shadow: 0;
-    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
-  }
-  .shadow-\[0_4px_10px_0\] {
-    --tw-shadow: 0 4px 10px 0 var(--tw-shadow-color, currentcolor);
-    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
-  }
-  .shadow-\[0_4px_10px_0_rgba\(0\,0\,0\,0\.1\)\] {
-    --tw-shadow: 0 4px 10px 0 var(--tw-shadow-color, rgba(0,0,0,0.1));
-    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
-  }
-  .shadow-\[0_4px_10px_0_rgba\(0\,0\,0\,0\.5\)\] {
-    --tw-shadow: 0 4px 10px 0 var(--tw-shadow-color, rgba(0,0,0,0.5));
-    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
-  }
-  .shadow-\[0_4px_10px_\] {
-    --tw-shadow: 0 4px 10px var(--tw-shadow-color, currentcolor);
-    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
-  }
-  .shadow-\[0_\] {
-    --tw-shadow: 0;
-    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
-  }
   .shadow-md {
     --tw-shadow: 0 4px 6px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 2px 4px -2px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
-    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
-  }
-  .shadow-xl {
-    --tw-shadow: 0 20px 25px -5px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 8px 10px -6px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
   }
   .transition-shadow {
@@ -505,14 +467,14 @@
       }
     }
   }
-  .lg\:mb-1 {
-    @media (width >= 64rem) {
-      margin-bottom: calc(var(--spacing) * 1);
+  .sm\:w-\[3\] {
+    @media (width >= 40rem) {
+      width: 3;
     }
   }
-  .lg\:mb-1\.5 {
-    @media (width >= 64rem) {
-      margin-bottom: calc(var(--spacing) * 1.5);
+  .sm\:w-\[350px\] {
+    @media (width >= 40rem) {
+      width: 350px;
     }
   }
   .lg\:mb-2 {
@@ -594,7 +556,7 @@
   }
   .menu-characters .character-image.active {
     box-shadow: 0px 0px 0px 8px var(--color-red);
-    z-index: 99;
+    z-index: 10;
   }
 }
 @property --tw-rotate-x {
