@@ -18,7 +18,15 @@ toggleMenu.addEventListener("click", () => {
   }
 });
 
-// Active 
+// Characters list active image
+const links = document.querySelectorAll("#menu li a");
+// Close nav when clicking on a link
+links.forEach((link) => {
+  link.addEventListener("click", () => {
+    menu.classList.remove("h-[280px]");
+    menu.classList.add("h-0");
+  });
+});
 
 
 
@@ -46,6 +54,17 @@ function createMenucharacters(characters) {
     elementCharacter.alt = character.name;
 
     elementCharacter.addEventListener("click", () => {
+      // Retirer la classe active des autres images
+      document.querySelectorAll(".menu-characters .character-image").forEach((img) => {
+        img.classList.remove("active");
+      });
+
+      // Ajouter la classe active à l'image cliquée
+      elementCharacter.classList.add("active");
+
+      const firstImage = document.querySelector(".details-characters .character-images img:first-child");
+      firstImage.classList.add("active");
+
       // Mise à jour des infos
       name.textContent = character.name;
       bio.textContent = character.bio;
