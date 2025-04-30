@@ -68,20 +68,30 @@
 
    .menu-characters img {
       position: relative;
-      width: 50px;
+      width: 60px;
       height: auto;
-      object-fit: cover;
-      object-position: center;
+      /* object-fit: cover;
+      object-position: center; */
    }
 
-   .menu-characters img:after{
-      content: '';
+   .menu-characters img:hover {
+
+      transition: transform 0.3s ease;
+   }
+
+   .menu-characters img::after{
       position: absolute;
+      content: '';
       top: 0;
       left: 0;
-      width: 100%;
-      height: 100%;
-      margin: 15px 20px;
-      background-color: var(--red);
+      width: 120%;
+      height: 120%;
+      border: 50px solid transparent; 
+      pointer-events: none;
+      background: red;
+   }
+
+   .menu-characters img:hover::after {
+      border-color: red;
    }
 }
