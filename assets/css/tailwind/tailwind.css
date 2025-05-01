@@ -91,4 +91,30 @@
          transform: translateX(calc(-1200%));
       }
    }
+
+   /* ====== Marquee responsive ====== */
+   @media screen and (min-width: 750px) {
+      @keyframes marquee {
+         from {
+            transform: translateX(0%);
+         }
+         to {
+            transform: translateX(calc(-500%));
+         }
+      }
+
+      /* ===== Gallery marquee */
+      .marquee-gallery {
+         animation-duration: 40s;
+      }
+
+      @keyframes marquee-gallery {
+         from {
+            transform: translateX(0%);
+         }
+         to {
+            transform: translateX(calc(-1000%));
+         }
+      }
+   }
 }
