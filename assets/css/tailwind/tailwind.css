@@ -29,35 +29,6 @@
 }
 
 @layer components {
-   .marquee {
-      display: flex;
-      animation: marquee 25s linear infinite;
-   }
-   
-   @keyframes marquee {
-      from {
-         transform: translateX(25%);
-      }
-      to {
-         transform: translateX(calc(-650%));
-      }
-   }
-
-   .marquee-gallery {
-      display: flex;
-      animation: marquee-gallery 35s linear infinite;
-   }
-   
-   @keyframes marquee-gallery {
-      from {
-         transform: translateX(0%);
-      }
-      to {
-         transform: translateX(calc(-990%));
-      }
-   }
-
-
    .text-textured {
       background-image: url('/assets/images/background/grunge-background.jpg');
       background-size: cover;
@@ -88,6 +59,36 @@
    @media screen and (min-width: 500px) {
       .menu-characters .character-image {
          width: 80px;
+      }
+   }
+
+
+   /* ===== Marquee ===== */
+   .marquee {
+      display: flex;
+      animation: marquee 25s linear infinite;
+   }
+   
+   @keyframes marquee {
+      from {
+         transform: translateX(0%);
+      }
+      to {
+         transform: translateX(calc(-600%));
+      }
+   }
+
+   .marquee-gallery {
+      display: flex;
+      animation: marquee-gallery 25s linear infinite;
+   }
+   
+   @keyframes marquee-gallery {
+      from {
+         transform: translateX(0%);
+      }
+      to {
+         transform: translateX(calc(-1200%));
       }
    }
 }

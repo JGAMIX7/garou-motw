@@ -262,9 +262,6 @@
   .h-0 {
     height: calc(var(--spacing) * 0);
   }
-  .h-\[2px\] {
-    height: 2px;
-  }
   .h-\[28px\] {
     height: 28px;
   }
@@ -283,9 +280,6 @@
   .h-\[225px\] {
     height: 225px;
   }
-  .h-\[240px\] {
-    height: 240px;
-  }
   .h-\[250px\] {
     height: 250px;
   }
@@ -294,9 +288,6 @@
   }
   .h-\[320px\] {
     height: 320px;
-  }
-  .h-\[350px\] {
-    height: 350px;
   }
   .h-\[auto\] {
     height: auto;
@@ -310,9 +301,6 @@
   .h-screen {
     height: 100vh;
   }
-  .w-\[225px\] {
-    width: 225px;
-  }
   .w-\[280px\] {
     width: 280px;
   }
@@ -322,9 +310,6 @@
   .w-\[320px\] {
     width: 320px;
   }
-  .w-\[350px\] {
-    width: 350px;
-  }
   .w-auto {
     width: auto;
   }
@@ -333,6 +318,9 @@
   }
   .w-screen {
     width: 100vw;
+  }
+  .max-w-\[480px\] {
+    max-width: 480px;
   }
   .min-w-\[300px\] {
     min-width: 300px;
@@ -740,30 +728,6 @@
   }
 }
 @layer components {
-  .marquee {
-    display: flex;
-    animation: marquee 25s linear infinite;
-  }
-  @keyframes marquee {
-    from {
-      transform: translateX(25%);
-    }
-    to {
-      transform: translateX(calc(-650%));
-    }
-  }
-  .marquee-gallery {
-    display: flex;
-    animation: marquee-gallery 35s linear infinite;
-  }
-  @keyframes marquee-gallery {
-    from {
-      transform: translateX(0%);
-    }
-    to {
-      transform: translateX(calc(-990%));
-    }
-  }
   .text-textured {
     background-image: url('/assets/images/background/grunge-background.jpg');
     background-size: cover;
@@ -788,6 +752,30 @@
   @media screen and (min-width: 500px) {
     .menu-characters .character-image {
       width: 80px;
+    }
+  }
+  .marquee {
+    display: flex;
+    animation: marquee 25s linear infinite;
+  }
+  @keyframes marquee {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(calc(-600%));
+    }
+  }
+  .marquee-gallery {
+    display: flex;
+    animation: marquee-gallery 25s linear infinite;
+  }
+  @keyframes marquee-gallery {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(calc(-1200%));
     }
   }
 }
