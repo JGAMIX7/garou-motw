@@ -22,7 +22,7 @@
 </head>
 <body>
    <!-- ========== Header ========== -->
-   <header class="relatve fixed top-0 left-0 right-0 w-full h-[80px] px-[15px] bg-red flex justify-between items-center shadow-md z-50 xl:px-[30px]">
+   <header class="relatve sticky top-0 left-0 right-0 w-full h-[80px] px-[15px] bg-red flex justify-between items-center shadow-md z-50 xl:px-[30px]">
       <!-- ===== Logo ===== -->
       <a href="#home"><img class="w-auto h-[50px]" src="assets/images/svg/logo.svg" alt="Garou Mark of the Wolves logo"></a>
 
@@ -44,7 +44,6 @@
 
    <!-- ========== Hero section ========== -->
    <section id="home" class="w-full h-screen px-[10px] md:px-[30px] bg-[url('/assets/images/background/background.jpg')] bg-cover bg-center flex justify-center items-center md:justify-start">
-
       <div class="z-10">
          <h1 class="text-white text-4xl md:text-5xl mb-1 xl:text-6xl xl:mb-2">Garou: Mark of the Wolves</h1>
 
@@ -71,20 +70,20 @@
 
    <!-- ========== Story section ========== -->
    <section class="bg-red px-[15px] py-[60px] sm:px-[100px] md:px-[96px] xl:py-[100px]" id="story">
-      <div class="flex flex-col justify-center items-center xl:w-[1500px] xl:mx-auto">
-         <h2 class="text-[32px] text-white uppercase mb-5 md:mb-10 md:text-[42px] xl:mb-15">Story</h2>
+      <div class="flex flex-col justify-center items-center xl:mx-auto">
+         <h2 class="text-[32px] text-white uppercase mb-5 md:mb-10 md:text-[42px]">Story</h2>
          
          <div class="flex flex-col justify-center items-center gap-5 xl:flex-row xl:justify-between xl:gap-10">
             <div class="xl:flex-1">
                <h3 class="text-3xl text-white mb-1 md:text-4xl">Introduction</h3>
-               <p class="text-white text-justify xl:text-base xl:w-[600px]">
+               <p class="text-white text-justify xl:text-base xl:w-[550px]">
                   Set ten years after the death of the notorious crime lord Geese Howard, the city of South Town has become more peaceful. 
                   Now, the stage is in the neighboring city of Second South Town. A new fighting tournament called "King of Fighters: Maximum Mayhem"  
                   starts in the area, and several characters related with the fighters from the old era of King of Fighters tournaments participate within it.
                </p>
             </div>
 
-            <div class="w-full h-[250px] sm:h-[320px] sm:max-w-[640px] md:h-[350px] xl:flex-1">
+            <div class="w-full h-[250px] sm:h-[320px] sm:max-w-[640px] md:h-[350px] xl:w-[550px] xl:h-[367px]">
                <iframe class="w-full h-full border-none" src="https://www.youtube.com/embed/Pc6G4jZfTHM?si=FaHdfaNnjLjD-cya" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
          </div>
@@ -94,13 +93,13 @@
    <!-- ========== Features section ========== -->
    <section class="px-[15px] py-[60px] sm:px-[60px] md:px-[100px] xl:py-[100px]" id="features">
       <div class="flex flex-col justify-center items-center xl:w-[1000px] xl:mx-auto">
-         <h2 class="text-[32px] uppercase mb-5 md:mb-10 md:text-[42px] xl:mb-15">Features</h2>
+         <h2 class="text-[32px] uppercase mb-5 md:mb-10 md:text-[42px]">Features</h2>
          
          <div class="flex flex-col gap-12 xl:gap-40">
-            <div class="flex flex-col justicy-center items-center gap-5 xl:flex-row-reverse xl:justify-between xl:gap-10">
+            <div class="flex flex-col justicy-center items-center gap-5 xl:flex-row-reverse xl:mx-auto xl:gap-10">
                <div class="xl:flex-1">
                   <h3 class="text-3xl mb-1 md:text-4xl">T.O.P. System</h3>
-                  <p class="text-justify xl:text-base xl:w-[600px]">
+                  <p class="text-justify xl:text-base xl:w-[550px]">
                      <strong>The Tactical Offensive Position System</strong> or <strong>T.O.P.</strong>, is a new system. Before each match begins, 
                      the player is given option to adjust  the T.O.P. meter's influence onto three different places 
                      on their  character's life meter (beginning, middle, end). When a character's life meter reaches the white T.O.P. 
@@ -110,15 +109,15 @@
                   </p>
                </div>
    
-               <figure class="w-full h-auto max-w-[480px] mx-auto bg-black sm:max-w-[640px] xl:flex-1">
+               <figure class="w-full h-auto max-w-[480px] mx-auto bg-black sm:max-w-[640px] xl:w-[550px]">
                   <img src="assets/images/features/T.O.P.gif" alt="T.O.P. System demo" class="bg-contain mx-auto h-[225px] sm:h-[300px] md:h-[320px]">
                </figure>
             </div>
    
-            <div class="flex flex-col justicy-center items-center gap-5 xl:flex-row xl:justify-between xl:gap-10">
+            <div class="flex flex-col justicy-center items-center gap-5 xl:flex-row xl:mx-auto xl:gap-10">
                <div class="xl:flex-1">
                   <h3 class="text-3xl mb-1 md:text-4xl">Just Defense System</h3>
-                  <p class="text-justify xl:text-base xl:w-[600px]">
+                  <p class="text-justify xl:text-base xl:w-[550px]">
                      The <strong>Just Defense</strong> allows players to benefit from defending by activating it against incoming attacks at the last second within 7 frames. 
                      Players can perform Just Defense <strong>against any type of attack</strong>, even being able to Just Defend in midair despite the lack of air blocking. 
                      Just Defense has following advantages : <strong>Small health recovery</strong> and <strong>Power gauge gain</strong> for each successful Just Defense activation. 
@@ -128,14 +127,15 @@
                   </p>
                </div>
    
-               <figure class="w-full h-auto max-w-[480px] mx-auto bg-black sm:max-w-[640px] xl:flex-1">
+               <figure class="w-full h-auto max-w-[480px] mx-auto bg-black sm:max-w-[640px] xl:w-[550px]">
                   <img src="assets/images/features/Just-Defense.gif" alt="Just Defense System demo" class="bg-contain mx-auto h-[225px] sm:h-[300px] md:h-[320px]">
                </figure>
             </div>
-            <div class="flex flex-col justicy-center items-center gap-5 xl:flex-row-reverse xl:justify-between xl:gap-10">
+
+            <div class="flex flex-col justicy-center items-center gap-5 xl:flex-row-reverse xl:mx-auto xl:gap-10">
                <div class="xl:flex-1">
                   <h3 class="text-3xl mb-1 md:text-4xl">Breaking System</h3>
-                  <p class="text-justify xl:text-base xl:w-[600px]">
+                  <p class="text-justify xl:text-base xl:w-[550px]">
                      The <strong>Breaking</strong> is an advanced technique for interrupting and countering your opponent's special attacks. To successfully perform a “Breaking”, 
                      the player must <strong>anticipate</strong> the special attack and perform a precise command at the moment the attack hits. If the “Breaking” is successful, 
                      the attack is cancelled and the player can counter-attack. Breaking adds a strategic dimension to combat, encouraging analysis and anticipation. 
@@ -144,8 +144,8 @@
                   </p>
                </div>
    
-               <figure class="w-full h-auto max-w-[480px] mx-auto bg-black sm:max-w-[640px] xl:flex-1">
-                  <img src="assets/images/features/Breaking.gif" alt="Breaking System demo" class="bg-contain mx-auto w-[300px] h-[225px] sm:w-[400px] sm:h-[300px] md:w-[454px] md:h-[320px]">
+               <figure class="w-full h-auto max-w-[480px] mx-auto bg-black sm:max-w-[640px] xl:w-[550px]">
+                  <img src="assets/images/features/Breaking.gif" alt="Breaking System demo" class="bg-contain mx-auto w-[300px] h-[225px] sm:w-[400px] sm:h-[300px] md:w-[454px] xl:w-[427px] md:h-[320px]">
                </figure>
             </div>
          </div>
@@ -190,39 +190,41 @@
     </div>
 
    <!-- ========== Characters section ========== -->
-   <section class="px-[15px] py-[60px] sm:px-[60px] xl:py-[100px]" id="characters">
+   <section class="px-[15px] py-[60px] sm:px-[60px] xl:py-[100px] xl:pb-[150px]" id="characters">
       <div class="flex flex-col justify-center items-center">
-         <h2 class="text-[32px] uppercase mb-5 md:mb-10 md:text-[42px] xl:mb-15">Characters</h2>
+         <h2 class="text-[32px] uppercase mb-5 md:mb-10 md:text-[42px]">Characters</h2>
 
          <div class="flex flex-col">
             <!-- ===== Characters list ===== -->
-            <div class="menu-characters min-w-[300px] sm:w-[500px] xl:w-auto mx-auto flex justify-center items-center flex-wrap gap-1 xl:bg-white xl:p-1 xl:border-2 xl:border-black xl:flex-nowrap xl:mx-0"></div>
+            <div class="menu-characters min-w-[300px] sm:w-[500px] xl:w-auto mx-auto flex justify-center items-center flex-wrap gap-1 xl:bg-white xl:p-1 xl:border-2 xl:border-black xl:flex-nowrap xl:gap-2 xl:mx-0"></div>
 
             <!-- ===== Character infos ===== -->
-            <div class="mt-[30px]">
-               <div class="details-characters relative">
-                  <div class="character-images relative  w-[320px] h-[320px] mx-auto sm:w-[420px] sm:h-[420px]">
+            <div class="mt-[30px] xl:mt-[80px]">
+               <div class="details-characters relative xl:flex xl:justify-center xl:items-center xl:gap-10">
+                  <div class="character-images relative  w-[320px] h-[320px] mx-auto sm:w-[420px] sm:h-[420px] xl:mx-0">
                      <img class="character-image w-full h-full" src="assets/images/characters/background/Rock-set.svg" alt="Character background">
                      <img class="absolute bottom-[-25px] left-5 z-5 h-[250px]" src="assets/images/characters/standing/Rock.gif" alt="Character standing">
                      <!-- <img class=" absolute bottom-0 right-O z-10" src="assets/images/characters/victory-pose/Rock-victory-pose.gif" alt="Character victory pose"> -->
                   </div>
 
-                  <h3 class="character-name text-4xl font-extrabold uppercase mt-12 mb-1">Rock Howard</h3>
+                  <div class="relative xl:w-[550px]">
+                     <h3 class="character-name text-4xl font-extrabold uppercase mt-12 mb-1">Rock Howard</h3>
 
-                  <p class="character-bio text-justify sm:text-start sm:w-[600px]">
-                     The biological son of Geese Howard and protagonist of the game, has strong bonds with Terry Bogard,
-                     his adoptive father, and has had a huge opposition towards Geese since the death of his mother.
-                  </p>
+                     <p class="character-bio text-justify sm:text-start sm:w-[600px] xl:w-auto">
+                        The biological son of Geese Howard and protagonist of the game, has strong bonds with Terry Bogard,
+                        his adoptive father, and has had a huge opposition towards Geese since the death of his mother.
+                     </p>
+   
+                     <div class="mt-5 lg:mb-2">
+                        <p><strong class="text-lg">Fighting style :</strong> <span class="character-fighting-style text-lg">Martial Arts</span></p>
+                        <p><strong class="text-lg">Date of birth :</strong> <span class="character-birthdate text-lg">June 24</span></p>
+                        <p><strong class="text-lg">Bloodtype :</strong> <span class="character-bloodtype text-lg">B</span></p>
+                        <p><strong class="text-lg w-[450px]">Likes :</strong> <span class="character-likes text-lg">The cap Terry gave him, his bike</span></p>
+                     </div>
 
-                  <div class="mt-5 lg:mb-2">
-                     <p><strong class="text-lg">Fighting style :</strong> <span class="character-fighting-style text-lg">Martial Arts</span></p>
-                     <p><strong class="text-lg">Date of birth :</strong> <span class="character-birthdate text-lg">June 24</span></p>
-                     <p><strong class="text-lg">Bloodtype :</strong> <span class="character-bloodtype text-lg">B</span></p>
-                     <p><strong class="text-lg mw-[450px]">Likes :</strong> <span class="character-likes text-lg">The cap Terry gave him, his bike</span></p>
-                  </div>
-
-                  <div class="hidden character-images">
-                     <img class=" z-10" src="assets/images/characters/victory-pose/Rock-victory-pose.gif" alt="Character victory pose">
+                     <div class="hidden character-images xl:block xl:absolute xl:bottom-[-135px] xl:right-0">
+                        <img class="" src="assets/images/characters/victory-pose/Rock-victory-pose.gif" alt="Character victory pose">
+                     </div>
                   </div>
                </div>
             </div>

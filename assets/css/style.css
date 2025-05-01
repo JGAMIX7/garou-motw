@@ -195,6 +195,9 @@
   .relative {
     position: relative;
   }
+  .sticky {
+    position: sticky;
+  }
   .top-0 {
     top: calc(var(--spacing) * 0);
   }
@@ -311,6 +314,12 @@
   }
   .w-\[320px\] {
     width: 320px;
+  }
+  .w-\[450px\] {
+    width: 450px;
+  }
+  .w-\[670px\] {
+    width: 670px;
   }
   .w-auto {
     width: auto;
@@ -609,9 +618,49 @@
       margin-bottom: calc(var(--spacing) * 2);
     }
   }
+  .xl\:absolute {
+    @media (width >= 80rem) {
+      position: absolute;
+    }
+  }
   .xl\:static {
     @media (width >= 80rem) {
       position: static;
+    }
+  }
+  .xl\:right-0 {
+    @media (width >= 80rem) {
+      right: calc(var(--spacing) * 0);
+    }
+  }
+  .xl\:bottom-0 {
+    @media (width >= 80rem) {
+      bottom: calc(var(--spacing) * 0);
+    }
+  }
+  .xl\:bottom-\[-1px\] {
+    @media (width >= 80rem) {
+      bottom: -1px;
+    }
+  }
+  .xl\:bottom-\[-10px\] {
+    @media (width >= 80rem) {
+      bottom: -10px;
+    }
+  }
+  .xl\:bottom-\[-135px\] {
+    @media (width >= 80rem) {
+      bottom: -135px;
+    }
+  }
+  .xl\:bottom-\[-\] {
+    @media (width >= 80rem) {
+      bottom: -;
+    }
+  }
+  .xl\:z-0 {
+    @media (width >= 80rem) {
+      z-index: 0;
     }
   }
   .xl\:mx-0 {
@@ -622,6 +671,16 @@
   .xl\:mx-auto {
     @media (width >= 80rem) {
       margin-inline: auto;
+    }
+  }
+  .xl\:mt-\[60px\] {
+    @media (width >= 80rem) {
+      margin-top: 60px;
+    }
+  }
+  .xl\:mt-\[80px\] {
+    @media (width >= 80rem) {
+      margin-top: 80px;
     }
   }
   .xl\:mb-2 {
@@ -639,9 +698,29 @@
       margin-bottom: calc(var(--spacing) * 15);
     }
   }
+  .xl\:mb-\[60px\] {
+    @media (width >= 80rem) {
+      margin-bottom: 60px;
+    }
+  }
+  .xl\:block {
+    @media (width >= 80rem) {
+      display: block;
+    }
+  }
+  .xl\:flex {
+    @media (width >= 80rem) {
+      display: flex;
+    }
+  }
   .xl\:hidden {
     @media (width >= 80rem) {
       display: none;
+    }
+  }
+  .xl\:h-\[367px\] {
+    @media (width >= 80rem) {
+      height: 367px;
     }
   }
   .xl\:h-auto {
@@ -649,9 +728,49 @@
       height: auto;
     }
   }
+  .xl\:w-\[4\] {
+    @media (width >= 80rem) {
+      width: 4;
+    }
+  }
+  .xl\:w-\[42\] {
+    @media (width >= 80rem) {
+      width: 42;
+    }
+  }
+  .xl\:w-\[60px\] {
+    @media (width >= 80rem) {
+      width: 60px;
+    }
+  }
+  .xl\:w-\[427px\] {
+    @media (width >= 80rem) {
+      width: 427px;
+    }
+  }
+  .xl\:w-\[550px\] {
+    @media (width >= 80rem) {
+      width: 550px;
+    }
+  }
   .xl\:w-\[600px\] {
     @media (width >= 80rem) {
       width: 600px;
+    }
+  }
+  .xl\:w-\[640px\] {
+    @media (width >= 80rem) {
+      width: 640px;
+    }
+  }
+  .xl\:w-\[650px\] {
+    @media (width >= 80rem) {
+      width: 650px;
+    }
+  }
+  .xl\:w-\[670px\] {
+    @media (width >= 80rem) {
+      width: 670px;
     }
   }
   .xl\:w-\[1000px\] {
@@ -667,6 +786,31 @@
   .xl\:w-auto {
     @media (width >= 80rem) {
       width: auto;
+    }
+  }
+  .xl\:max-w-\[6\] {
+    @media (width >= 80rem) {
+      max-width: 6;
+    }
+  }
+  .xl\:max-w-\[120\] {
+    @media (width >= 80rem) {
+      max-width: 120;
+    }
+  }
+  .xl\:max-w-\[670\] {
+    @media (width >= 80rem) {
+      max-width: 670;
+    }
+  }
+  .xl\:max-w-\[670px\] {
+    @media (width >= 80rem) {
+      max-width: 670px;
+    }
+  }
+  .xl\:max-w-\[1200px\] {
+    @media (width >= 80rem) {
+      max-width: 1200px;
     }
   }
   .xl\:flex-1 {
@@ -689,9 +833,24 @@
       flex-wrap: nowrap;
     }
   }
+  .xl\:items-center {
+    @media (width >= 80rem) {
+      align-items: center;
+    }
+  }
   .xl\:justify-between {
     @media (width >= 80rem) {
       justify-content: space-between;
+    }
+  }
+  .xl\:justify-center {
+    @media (width >= 80rem) {
+      justify-content: center;
+    }
+  }
+  .xl\:gap-2 {
+    @media (width >= 80rem) {
+      gap: calc(var(--spacing) * 2);
     }
   }
   .xl\:gap-10 {
@@ -730,9 +889,19 @@
       padding: calc(var(--spacing) * 1);
     }
   }
+  .xl\:px-2 {
+    @media (width >= 80rem) {
+      padding-inline: calc(var(--spacing) * 2);
+    }
+  }
   .xl\:px-\[30px\] {
     @media (width >= 80rem) {
       padding-inline: 30px;
+    }
+  }
+  .xl\:py-1 {
+    @media (width >= 80rem) {
+      padding-block: calc(var(--spacing) * 1);
     }
   }
   .xl\:py-\[35px\] {
@@ -743,6 +912,16 @@
   .xl\:py-\[100px\] {
     @media (width >= 80rem) {
       padding-block: 100px;
+    }
+  }
+  .xl\:pb-\[150px\] {
+    @media (width >= 80rem) {
+      padding-bottom: 150px;
+    }
+  }
+  .xl\:text-start {
+    @media (width >= 80rem) {
+      text-align: start;
     }
   }
   .xl\:text-5xl {
@@ -767,6 +946,11 @@
     @media (width >= 80rem) {
       --tw-shadow: 0 0 #0000;
       box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+    }
+  }
+  .\32 xl\:w-\[670px\] {
+    @media (width >= 96rem) {
+      width: 670px;
     }
   }
 }
