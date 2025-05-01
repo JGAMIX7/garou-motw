@@ -22,7 +22,7 @@
 </head>
 <body>
    <!-- ========== Header ========== -->
-   <header class="relatve fixed top-0 left-0 w-full h-[80px] px-[15px] bg-red flex justify-between items-center shadow-md z-50 xl:px-[30px]">
+   <header class="relatve fixed top-0 left-0 right-0 w-full h-[80px] px-[15px] bg-red flex justify-between items-center shadow-md z-50 xl:px-[30px]">
       <!-- ===== Logo ===== -->
       <a href="#home"><img class="w-auto h-[50px]" src="assets/images/svg/logo.svg" alt="Garou Mark of the Wolves logo"></a>
 
@@ -37,19 +37,18 @@
             <li class=""><a href="#story" class="text-xl font-semibold text-white">Story</a></li>
             <li class=""><a href="#features" class="text-xl font-semibold text-white">Features</a></li>
             <li class=""><a href="#characters" class="text-xl font-semibold text-white">Characters</a></li>
-            <li class=""><a href="#available" class="text-xl font-semibold text-white">Available Now</a></li>
+            <li class=""><a href="#available" class="text-xl font-semibold text-white">Available</a></li>
          </ul>
       </nav>
    </header>
 
    <!-- ========== Hero section ========== -->
-   <section id="home" class="w-full h-screen px-[10px] sm:px-[30px] bg-[url('/assets/images/background/background-desktop-very-large.jpg')] bg-cover bg-center flex justify-center items-center xl:justify-start">
-      <!-- <div class="w-screen h-screen bg-half-black  absolute"></div> -->
-      
-      <div class="z-10">
-         <h1 class="text-white text-4xl mb-1 xl:text-6xl xl:mb-2">Garou: Mark of the Wolves</h1>
+   <section id="home" class="w-full h-screen px-[10px] md:px-[30px] bg-[url('/assets/images/background/background.jpg')] bg-cover bg-center flex justify-center items-center md:justify-start">
 
-         <p class="text-white font-medium mb-2.5 xl:w-[700px] xl:mb-4.5">
+      <div class="z-10">
+         <h1 class="text-white text-4xl md:text-5xl mb-1 xl:text-6xl xl:mb-2">Garou: Mark of the Wolves</h1>
+
+         <p class="text-white font-medium mb-2.5 md:w-[700px] xl:mb-4.5">
             Yes, they do exist... Those who sacrifice all for their ambitions. Those who endanger all for the taste of revenge. 
             Whose actions are just? Justice is not the issue. The victorious will survive. The vanquished shall fall. This is the only justice. 
             For ten years later... THE MIGHTY RULE!
@@ -71,13 +70,13 @@
     </div>
 
    <!-- ========== Story section ========== -->
-   <section class="bg-red px-[15px] py-[60px] sm:px-[60px] xl:py-[100px]" id="story">
+   <section class="bg-red px-[15px] py-[60px] sm:px-[100px] md:px-[96px] xl:py-[100px]" id="story">
       <div class="flex flex-col justify-center items-center xl:w-[1500px] xl:mx-auto">
-         <h2 class="text-[32px] text-white uppercase mb-5 xl:text-4xl xl:mb-15">Story</h2>
+         <h2 class="text-[32px] text-white uppercase mb-5 md:mb-10 md:text-[42px] xl:mb-15">Story</h2>
          
          <div class="flex flex-col justify-center items-center gap-5 xl:flex-row xl:justify-between xl:gap-10">
             <div class="xl:flex-1">
-               <h3 class="text-3xl text-white mb-1">Introduction</h3>
+               <h3 class="text-3xl text-white mb-1 md:text-4xl">Introduction</h3>
                <p class="text-white text-justify xl:text-base xl:w-[600px]">
                   Set ten years after the death of the notorious crime lord Geese Howard, the city of South Town has become more peaceful. 
                   Now, the stage is in the neighboring city of Second South Town. A new fighting tournament called "King of Fighters: Maximum Mayhem"  
@@ -85,7 +84,7 @@
                </p>
             </div>
 
-            <div class="w-full h-[250px] sm:h-[320px] lg:w-[670px] lg:h-[367px] xl:flex-1">
+            <div class="w-full h-[250px] sm:h-[320px] sm:max-w-[640px] md:h-[350px] xl:flex-1">
                <iframe class="w-full h-full border-none" src="https://www.youtube.com/embed/Pc6G4jZfTHM?si=FaHdfaNnjLjD-cya" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
          </div>
@@ -93,14 +92,14 @@
    </section>
 
    <!-- ========== Features section ========== -->
-   <section class="px-[15px] py-[60px] sm:px-[60px] xl:py-[100px]" id="features">
+   <section class="px-[15px] py-[60px] sm:px-[60px] md:px-[100px] xl:py-[100px]" id="features">
       <div class="flex flex-col justify-center items-center xl:w-[1000px] xl:mx-auto">
-         <h2 class="text-[32px] uppercase mb-5 xl:mb-15">Features</h2>
+         <h2 class="text-[32px] uppercase mb-5 md:mb-10 md:text-[42px] xl:mb-15">Features</h2>
          
          <div class="flex flex-col gap-12 xl:gap-40">
             <div class="flex flex-col justicy-center items-center gap-5 xl:flex-row-reverse xl:justify-between xl:gap-10">
                <div class="xl:flex-1">
-                  <h3 class="text-3xl mb-1">T.O.P. System</h3>
+                  <h3 class="text-3xl mb-1 md:text-4xl">T.O.P. System</h3>
                   <p class="text-justify xl:text-base xl:w-[600px]">
                      <strong>The Tactical Offensive Position System</strong> or <strong>T.O.P.</strong>, is a new system. Before each match begins, 
                      the player is given option to adjust  the T.O.P. meter's influence onto three different places 
@@ -112,13 +111,13 @@
                </div>
    
                <figure class="w-full h-auto max-w-[480px] mx-auto bg-black sm:max-w-[640px] xl:flex-1">
-                  <img src="assets/images/features/T.O.P.gif" alt="T.O.P. System demo" class="bg-contain mx-auto h-[225px] sm:h-[300px]">
+                  <img src="assets/images/features/T.O.P.gif" alt="T.O.P. System demo" class="bg-contain mx-auto h-[225px] sm:h-[300px] md:h-[320px]">
                </figure>
             </div>
    
             <div class="flex flex-col justicy-center items-center gap-5 xl:flex-row xl:justify-between xl:gap-10">
                <div class="xl:flex-1">
-                  <h3 class="text-3xl mb-1">Just Defense System</h3>
+                  <h3 class="text-3xl mb-1 md:text-4xl">Just Defense System</h3>
                   <p class="text-justify xl:text-base xl:w-[600px]">
                      The <strong>Just Defense</strong> allows players to benefit from defending by activating it against incoming attacks at the last second within 7 frames. 
                      Players can perform Just Defense <strong>against any type of attack</strong>, even being able to Just Defend in midair despite the lack of air blocking. 
@@ -130,12 +129,12 @@
                </div>
    
                <figure class="w-full h-auto max-w-[480px] mx-auto bg-black sm:max-w-[640px] xl:flex-1">
-                  <img src="assets/images/features/Just-Defense.gif" alt="Just Defense System demo" class="bg-contain mx-auto h-[225px] sm:h-[300px]">
+                  <img src="assets/images/features/Just-Defense.gif" alt="Just Defense System demo" class="bg-contain mx-auto h-[225px] sm:h-[300px] md:h-[320px]">
                </figure>
             </div>
             <div class="flex flex-col justicy-center items-center gap-5 xl:flex-row-reverse xl:justify-between xl:gap-10">
                <div class="xl:flex-1">
-                  <h3 class="text-3xl mb-1">Breaking System</h3>
+                  <h3 class="text-3xl mb-1 md:text-4xl">Breaking System</h3>
                   <p class="text-justify xl:text-base xl:w-[600px]">
                      The <strong>Breaking</strong> is an advanced technique for interrupting and countering your opponent's special attacks. To successfully perform a “Breaking”, 
                      the player must <strong>anticipate</strong> the special attack and perform a precise command at the moment the attack hits. If the “Breaking” is successful, 
@@ -146,7 +145,7 @@
                </div>
    
                <figure class="w-full h-auto max-w-[480px] mx-auto bg-black sm:max-w-[640px] xl:flex-1">
-                  <img src="assets/images/features/Breaking.gif" alt="Breaking System demo" class="bg-contain mx-auto w-[300px] h-[225px] sm:w-[400px] sm:h-[300px]">
+                  <img src="assets/images/features/Breaking.gif" alt="Breaking System demo" class="bg-contain mx-auto w-[300px] h-[225px] sm:w-[400px] sm:h-[300px] md:w-[454px] md:h-[320px]">
                </figure>
             </div>
          </div>
@@ -193,7 +192,7 @@
    <!-- ========== Characters section ========== -->
    <section class="px-[15px] py-[60px] sm:px-[60px] xl:py-[100px]" id="characters">
       <div class="flex flex-col justify-center items-center">
-         <h2 class="text-[32px] uppercase mb-5 xl:mb-15">Characters</h2>
+         <h2 class="text-[32px] uppercase mb-5 md:mb-10 md:text-[42px] xl:mb-15">Characters</h2>
 
          <div class="flex flex-col">
             <!-- ===== Characters list ===== -->
@@ -203,7 +202,7 @@
             <div class="mt-[30px]">
                <div class="details-characters relative">
                   <div class="character-images relative  w-[320px] h-[320px] mx-auto sm:w-[420px] sm:h-[420px]">
-                     <img class="character-image w-full h-full" src="assets/images/characters/background/Rock-set.webp" alt="Character background">
+                     <img class="character-image w-full h-full" src="assets/images/characters/background/Rock-set.svg" alt="Character background">
                      <img class="absolute bottom-[-25px] left-5 z-5 h-[250px]" src="assets/images/characters/standing/Rock.gif" alt="Character standing">
                      <!-- <img class=" absolute bottom-0 right-O z-10" src="assets/images/characters/victory-pose/Rock-victory-pose.gif" alt="Character victory pose"> -->
                   </div>
@@ -238,7 +237,7 @@
             <img src="assets/images/svg/logo.svg" alt="Garou Mark of the Wolves logo" class="w-auto h-[150px]">
 
             <div class="">
-               <h2 class="text-4xl text-white text-center uppercase mb-4">Available Now</h2>
+               <h2 class="text-4xl text-white text-center uppercase mb-4 text-textured">Available Now</h2>
 
                <div class="flex gap-5 mt-[-10px]">
                   <a href="https://store.playstation.com/en-us/product/UP0571-CUSA13370_00-HAMPRDC000000001" class=""><img src="assets/images/svg/devices/playstation-logo.svg" alt="PlayStation logo"></a>

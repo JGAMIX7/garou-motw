@@ -26,16 +26,29 @@
    h1, h2, h3, h4, h5, h6 {
       font-weight: 700;
    }
+
+   section {
+      scroll-margin: 80px;
+   }
 }
 
 @layer components {
    .text-textured {
-      background-image: url('/assets/images/background/grunge-background.jpg');
+      background-image: url('/assets/images/background/grunge-background-yellow.jpg');
       background-size: cover;
       background-clip: text;
       -webkit-background-clip: text;
       color: transparent;
    }
+
+   .text-textured-2 {
+      background-image: url('/assets/images/background/grunge-background-white.jpg');
+      background-size: cover;
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+   }
+
 
    .menu-characters .character-image {
       position: relative;
@@ -44,6 +57,7 @@
       /* object-fit: cover;
       object-position: center; */
       z-index: 1;
+      cursor: pointer;
    }
 
    .menu-characters .character-image:hover {
@@ -99,7 +113,7 @@
             transform: translateX(0%);
          }
          to {
-            transform: translateX(calc(-500%));
+            transform: translateX(calc(-400%));
          }
       }
 

@@ -8,7 +8,7 @@
     "bloodtype": "B",
     "likes": "The cap Terry gave him, his bike",
     "images": [
-      "assets/images/characters/background/Rock-set.webp",
+      "assets/images/characters/background/Rock-set.svg",
       "assets/images/characters/standing/Rock.gif",
       "assets/images/characters/victory-pose/Rock-victory-pose.gif"
     ]
@@ -22,7 +22,7 @@
     "bloodtype": "O",
     "likes": "The laddies, high-cut-sneakers",
     "images": [
-      "assets/images/characters/background/DongHwan-set.webp",
+      "assets/images/characters/background/DongHwan-set.svg",
       "assets/images/characters/standing/DongHwan.gif",
       "assets/images/characters/victory-pose/DongHwan-victory-pose.gif"
     ]
@@ -36,7 +36,7 @@
     "bloodtype": "A",
     "likes": "Collecting cute ribbons, Itokatsu",
     "images": [
-      "assets/images/characters/background/Hotaru-set.webp",
+      "assets/images/characters/background/Hotaru-set.svg",
       "assets/images/characters/standing/Hotaru.gif",
       "assets/images/characters/victory-pose/Hotaru-victory-pose.gif"
     ]
@@ -50,7 +50,7 @@
     "likes": "His black belt and dojo sign",
     "bio": "A.K.A. Khushnood Butt, a Brazilian practitioner of the Kyokugenryu Karate and disciple of Ryo Sakazaki, enters to the Maximum Mayhem to prove the might of his martial art.",
     "images": [
-      "assets/images/characters/background/Marco-set.webp",
+      "assets/images/characters/background/Marco-set.svg",
       "assets/images/characters/standing/Marco.gif",
       "assets/images/characters/victory-pose/Marco-victory-pose.gif"
     ]
@@ -64,7 +64,7 @@
     "bloodtype": "O",
     "likes": "Hot springs, his master and all the Shiranui-ryuu people",
     "images": [
-      "assets/images/characters/background/Hokutomaru-set.webp",
+      "assets/images/characters/background/Hokutomaru-set.svg",
       "assets/images/characters/standing/Hokutomaru.gif",
       "assets/images/characters/victory-pose/Hokutomaru-victory-pose.gif"
     ]
@@ -78,7 +78,7 @@
     "bloodtype": "B",
     "likes": "Friends",
     "images": [
-      "assets/images/characters/background/Kevin-set.webp",
+      "assets/images/characters/background/Kevin-set.svg",
       "assets/images/characters/standing/Kevin.gif",
       "assets/images/characters/victory-pose/Kevin-victory-pose.gif"
     ]
@@ -91,7 +91,7 @@
     "likes": "His drill necklace, the edge of needles and blades",
     "bio": "A serial killer, who enters to the Maximum Mayhem to kill stronger opponents. One of his victims is Kevin Rian's police partner.",
     "images": [
-      "assets/images/characters/background/Freeman-set.webp",
+      "assets/images/characters/background/Freeman-set.svg",
       "assets/images/characters/standing/Freeman.gif",
       "assets/images/characters/victory-pose/Freeman-victory-pose.gif"
     ]
@@ -105,7 +105,7 @@
     "bloodtype": "O",
     "likes": "His griffon mask",
     "images": [
-      "assets/images/characters/background/Tizoc-set.webp",
+      "assets/images/characters/background/Tizoc-set.svg",
       "assets/images/characters/standing/Tizoc.gif",
       "assets/images/characters/victory-pose/Tizoc-victory-pose.gif"
     ]
@@ -119,7 +119,7 @@
     "bloodtype": "AB",
     "likes": "Her comrades in the Lilien Knights, and state-of-the-art Lilien Knights weaponry",
     "images": [
-      "assets/images/characters/background/Jenet-set.webp",
+      "assets/images/characters/background/Jenet-set.svg",
       "assets/images/characters/standing/Jenet.gif",
       "assets/images/characters/victory-pose/Jenet-victory-pose.gif"
     ]
@@ -133,7 +133,7 @@
     "bloodtype": "A",
     "likes": "His mother's necklace",
     "images": [
-      "assets/images/characters/background/Gato-set.webp",
+      "assets/images/characters/background/Gato-set.svg",
       "assets/images/characters/standing/Gato.gif",
       "assets/images/characters/victory-pose/Gato-victory-pose.gif"
     ]
@@ -146,7 +146,7 @@
     "bloodtype": "A",
     "likes": "His family, small animals (rabbits, hamsters, ferrets, etc.)",
     "images": [
-      "assets/images/characters/background/JaeHoon-set.webp",
+      "assets/images/characters/background/JaeHoon-set.svg",
       "assets/images/characters/standing/JaeHoon.gif",
       "assets/images/characters/victory-pose/JaeHoon-victory-pose.gif"
     ]
@@ -159,7 +159,7 @@
     "likes": "Keepsakes from his father, vintage jeans",
     "bio": "South Town's very own Legendary Hungry Wolf. Following his epic encounter with archrival Geese Howard, he takes young Rock (Geese's son) under his wing",
     "images": [
-      "assets/images/characters/background/Terry-set.webp",
+      "assets/images/characters/background/Terry-set.svg",
       "assets/images/characters/standing/Terry.gif",
       "assets/images/characters/victory-pose/Terry-victory-pose.gif"
     ]
