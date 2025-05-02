@@ -904,7 +904,7 @@
       transform: translateX(0%);
     }
     to {
-      transform: translateX(calc(-600%));
+      transform: translateX(calc(-100% - 3000px));
     }
   }
   .marquee-gallery {
@@ -916,7 +916,7 @@
       transform: translateX(0%);
     }
     to {
-      transform: translateX(calc(-1200%));
+      transform: translateX(calc(-100% - 3000px));
     }
   }
   @media screen and (min-width: 750px) {

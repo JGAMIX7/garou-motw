@@ -100,7 +100,7 @@
          transform: translateX(0%);
       }
       to {
-         transform: translateX(calc(-600%));
+         transform: translateX(calc(-100% - 3000px));
       }
    }
 
@@ -114,23 +114,23 @@
          transform: translateX(0%);
       }
       to {
-         transform: translateX(calc(-1200%));
+         transform: translateX(calc(-100% - 3000px));
       }
    }
 
    /* ====== Marquee responsive ====== */
    @media screen and (min-width: 750px) {
-      @keyframes marquee {
+      /* @keyframes marquee {
          from {
             transform: translateX(0%);
          }
          to {
             transform: translateX(calc(-400%));
          }
-      }
+      } */
 
       /* ===== Gallery marquee */
-      .marquee-gallery {
+      /* .marquee-gallery {
          animation-duration: 40s;
       }
 
@@ -142,5 +142,5 @@
             transform: translateX(calc(-1000%));
          }
       }
-   }
+   } */
 }
