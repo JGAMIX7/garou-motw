@@ -3,8 +3,6 @@ const toggleMenu = document.getElementById("toggle");
 const toggleImage = document.getElementById("toggle-img");
 const menu = document.getElementById("menu-list");
 
-const menuItems = document.querySelectorAll("#menu li a");
-
 toggleMenu.addEventListener("click", () => {
   if (menu.classList.contains("h-0")) {
     menu.classList.remove("h-0");
@@ -19,8 +17,10 @@ toggleMenu.addEventListener("click", () => {
 });
 
 // Characters list active image
-const links = document.querySelectorAll("#menu li a");
-// Close nav when clicking on a link
+
+// Ferme le menu après un clic sur un lien
+const links = document.querySelectorAll("#menu-list li a");
+
 links.forEach((link) => {
   link.addEventListener("click", () => {
     menu.classList.remove("h-[280px]");
@@ -28,11 +28,7 @@ links.forEach((link) => {
   });
 });
 
-
-
-
-
-// Menu selection
+// Characters selection
 fetch("assets/json/characters.json")
   .then((response) => response.json())
   .then((data) => {
@@ -47,11 +43,16 @@ function createMenucharacters(characters) {
   const bio = document.querySelector(".details-characters .character-bio");
   const images = document.querySelectorAll(".details-characters .character-images img");
 
-  characters.forEach((character) => {
+  characters.forEach((character, index) => {
     const elementCharacter = document.createElement("img"); // Création d'un élément image
     elementCharacter.classList.add("character-image");
     elementCharacter.src = character.icon;
     elementCharacter.alt = character.name;
+
+    // Ajouter la classe active à la première image
+    if (index === 0) {
+      elementCharacter.classList.add("active");
+    }
 
     elementCharacter.addEventListener("click", () => {
       // Retirer la classe active des autres images

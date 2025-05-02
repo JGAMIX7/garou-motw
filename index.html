@@ -10,7 +10,7 @@
    <!-- ===== Open Graph card ===== -->
    <meta property="og:title" content="Garou: Mark of the Wolves - Landing page">
    <meta property="og:description" content="Garou: Mark of the Wolves is a fighting game developed by SNK. It is the fifth installment in the Fatal Fury series and features a new cast of characters.">
-   <meta property="og:image" content="">
+   <meta property="og:image" content="/assets/images/thumbnail.jpg">
    <meta property="og:url" content="https://garoumotw.netlify.app/">
    <meta property="og:type" content="website">
    <!-- ===== Icons ===== -->
@@ -22,7 +22,7 @@
 </head>
 <body>
    <!-- ========== Header ========== -->
-   <header class="relatve sticky top-0 left-0 right-0 w-full h-[80px] px-[15px] bg-red flex justify-between items-center shadow-md z-50 xl:px-[30px]">
+   <header class="relatve fixed top-0 left-0 right-0 w-full h-[80px] px-[15px] bg-red flex justify-between items-center shadow-md z-50 xl:px-[30px]">
       <!-- ===== Logo ===== -->
       <a href="#home"><img class="w-auto h-[50px]" src="assets/images/svg/logo.svg" alt="Garou Mark of the Wolves logo"></a>
 
@@ -37,13 +37,13 @@
             <li class=""><a href="#story" class="text-xl font-semibold text-white">Story</a></li>
             <li class=""><a href="#features" class="text-xl font-semibold text-white">Features</a></li>
             <li class=""><a href="#characters" class="text-xl font-semibold text-white">Characters</a></li>
-            <li class=""><a href="#available" class="text-xl font-semibold text-white">Available</a></li>
+            <li class=""><a href="#buy" class="text-xl font-semibold text-white">Buy now</a></li>
          </ul>
       </nav>
    </header>
 
    <!-- ========== Hero section ========== -->
-   <section id="home" class="w-full h-screen px-[10px] md:px-[30px] bg-[url('/assets/images/background/background.jpg')] bg-cover bg-center flex justify-center items-center md:justify-start">
+   <section id="home" class="w-full h-screen px-[10px] md:px-[30px] flex justify-center items-center md:justify-start">
       <div class="z-10">
          <h1 class="text-white text-4xl md:text-5xl mb-1 xl:text-6xl xl:mb-2">Garou: Mark of the Wolves</h1>
 
@@ -53,57 +53,74 @@
             For ten years later... THE MIGHTY RULE!
          </p>
 
-         <a href="#available" class="relative z-50 inline-block text-white font-semibold text-xl px-[25px] py-[15px] bg-red transition-shadow duration-300 hover:shadow-[10px_10px_0_rgba(242,194,0,1)]">Available Now</a>
+         <a href="#buy" class="relative z-50 inline-block text-white font-semibold text-xl px-[25px] py-[15px] bg-red transition-shadow duration-300 hover:shadow-[10px_10px_0_rgba(242,194,0,1)]">Buy Now !</a>
       </div>
    </section>
 
    <!-- ========== Marquee text ========== -->
     <div class="bg-black overflow-hidden">
-      <div class="relative marquee flex flex-row flew-nowrap whitespace-nowrap gap-10 py-[20px] xl:py-[35px]">
+      <ul class="relative marquee flex flex-row flew-nowrap whitespace-nowrap gap-10 py-[20px] xl:py-[35px]">
+         <li>
+            <p class="text-4xl xl:text-5xl font-extrabold uppercase text-textured">Legends don't die... They get better !</p>
+         </li>
+         <li>
+            <p class="text-4xl xl:text-5xl font-extrabold uppercase text-textured">Legends don't die... They get better !</p>
+         </li>
+         <li>
+            <p class="text-4xl xl:text-5xl font-extrabold uppercase text-textured">Legends don't die... They get better !</p>
+         </li>
+         <li>
+            <p class="text-4xl xl:text-5xl font-extrabold uppercase text-textured">Legends don't die... They get better !</p>
+         </li>
+         <li>
+            <p class="text-4xl xl:text-5xl font-extrabold uppercase text-textured">Legends don't die... They get better !</p>
+         </li>
+         <li>
+            <p class="text-4xl xl:text-5xl font-extrabold uppercase text-textured">Legends don't die... They get better !</p>
+         </li>
+      </ul>
+
+      <!-- <div class="relative marquee flex flex-row flew-nowrap whitespace-nowrap gap-10 py-[20px] xl:py-[35px]">
          <p class="text-4xl xl:text-5xl font-extrabold uppercase text-textured">Legends don't die... They get better !</p>
          <p class="text-4xl xl:text-5xl font-extrabold uppercase text-textured">Legends don't die... They get better !</p>
          <p class="text-4xl xl:text-5xl font-extrabold uppercase text-textured">Legends don't die... They get better !</p>
          <p class="text-4xl xl:text-5xl font-extrabold uppercase text-textured">Legends don't die... They get better !</p>
          <p class="text-4xl xl:text-5xl font-extrabold uppercase text-textured">Legends don't die... They get better !</p>
-      </div>
+      </div> -->
     </div>
 
    <!-- ========== Story section ========== -->
-   <section class="bg-red px-[15px] py-[60px] sm:px-[100px] md:px-[96px] xl:py-[100px]" id="story">
-      <div class="flex flex-col justify-center items-center xl:mx-auto">
-         <h2 class="text-[32px] text-white uppercase mb-5 md:mb-10 md:text-[42px]">Story</h2>
+   <section class="bg-red px-[15px] py-[60px] sm:px-[100px] md:px-[96px] xl:py-[100px] xl:px-[80px]" id="story">
+      <article class="flex flex-col justify-center items-center xl:mx-auto">
+         <h2 class="text-[32px] text-white uppercase mb-5 md:mb-10 md:text-[42px] xl:mb-15">Story</h2>
          
-         <div class="flex flex-col justify-center items-center gap-5 xl:flex-row xl:justify-between xl:gap-10">
+         <div class="flex flex-col justify-center items-center gap-5 xl:flex-row xl:justify-between xl:gap-15">
             <div class="xl:flex-1">
                <h3 class="text-3xl text-white mb-1 md:text-4xl">Introduction</h3>
-               <p class="text-white text-justify xl:text-base xl:w-[550px]">
+               <p class="text-white text-justify xl:text-start xl:w-[550px] 2xl:w-[650px]">
                   Set ten years after the death of the notorious crime lord Geese Howard, the city of South Town has become more peaceful. 
                   Now, the stage is in the neighboring city of Second South Town. A new fighting tournament called "King of Fighters: Maximum Mayhem"  
                   starts in the area, and several characters related with the fighters from the old era of King of Fighters tournaments participate within it.
                </p>
             </div>
 
-            <video controls poster="/assets/images/thumbnail.jpg" class="w-full h-[250px] sm:h-[320px] sm:max-w-[640px] md:h-[350px] xl:w-[550px] xl:h-[367px]">
+            <video controls poster="/assets/images/thumbnail.jpg" class="w-full h-[250px] sm:h-[320px] sm:max-w-[640px] md:h-[350px] xl:w-[550px] xl:h-[340px]">
                <source class="w-full h-full" src="/assets/video/trailer.mp4" type="video/mp4">
             </video>
-
-            <!-- <div class="w-full h-[250px] sm:h-[320px] sm:max-w-[640px] md:h-[350px] xl:w-[550px] xl:h-[367px]">
-               <iframe class="w-full h-full border-none" src="https://www.youtube.com/embed/Pc6G4jZfTHM?si=FaHdfaNnjLjD-cya" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div> -->
          </div>
-      </div>
+      </article>
    </section>
 
    <!-- ========== Features section ========== -->
-   <section class="px-[15px] py-[60px] sm:px-[60px] md:px-[100px] xl:py-[100px]" id="features">
-      <div class="flex flex-col justify-center items-center xl:w-[1000px] xl:mx-auto">
-         <h2 class="text-[32px] uppercase mb-5 md:mb-10 md:text-[42px]">Features</h2>
+   <section class="px-[15px] py-[60px] sm:px-[60px] md:px-[100px] xl:py-[100px] xl:px-[80px]" id="features">
+      <article class="flex flex-col justify-center items-center xl:w-[1000px] xl:mx-auto">
+         <h2 class="text-[32px] uppercase mb-5 md:mb-10 md:text-[42px] xl:mb-15">Features</h2>
          
-         <div class="flex flex-col gap-12 xl:gap-40">
-            <div class="flex flex-col justicy-center items-center gap-5 xl:flex-row-reverse xl:mx-auto xl:gap-10">
-               <div class="xl:flex-1">
+         <div class="flex flex-col gap-12 xl:gap-44">
+            <div class="flex flex-col justicy-center items-center gap-5 xl:flex-row-reverse xl:mx-auto xl:gap-15">
+               <article class="xl:flex-1">
                   <h3 class="text-3xl mb-1 md:text-4xl">T.O.P. System</h3>
-                  <p class="text-justify xl:text-base xl:w-[550px]">
+                  <p class="text-justify xl:text-start xl:w-[550px] 2xl:w-[650px]">
                      <strong>The Tactical Offensive Position System</strong> or <strong>T.O.P.</strong>, is a new system. Before each match begins, 
                      the player is given option to adjust  the T.O.P. meter's influence onto three different places 
                      on their  character's life meter (beginning, middle, end). When a character's life meter reaches the white T.O.P. 
@@ -111,17 +128,17 @@
                      which will grant them the following advantages : <strong>Increased damage input</strong>, <strong>slow health regeneration</strong> and ability to 
                      <strong>perform T.O.P. attacks</strong>, which often deal heavy amount of reduction to the defender's guard meter if blocked
                   </p>
-               </div>
+               </article>
    
                <figure class="w-full h-auto max-w-[480px] mx-auto bg-black sm:max-w-[640px] xl:w-[550px]">
                   <img src="assets/images/features/T.O.P.gif" alt="T.O.P. System demo" class="bg-contain mx-auto h-[225px] sm:h-[300px] md:h-[320px]">
                </figure>
             </div>
    
-            <div class="flex flex-col justicy-center items-center gap-5 xl:flex-row xl:mx-auto xl:gap-10">
-               <div class="xl:flex-1">
+            <div class="flex flex-col justicy-center items-center gap-5 xl:flex-row xl:mx-auto xl:gap-15">
+               <article class="xl:flex-1">
                   <h3 class="text-3xl mb-1 md:text-4xl">Just Defense System</h3>
-                  <p class="text-justify xl:text-base xl:w-[550px]">
+                  <p class="text-justify xl:text-start xl:w-[550px] 2xl:w-[650px]">
                      The <strong>Just Defense</strong> allows players to benefit from defending by activating it against incoming attacks at the last second within 7 frames. 
                      Players can perform Just Defense <strong>against any type of attack</strong>, even being able to Just Defend in midair despite the lack of air blocking. 
                      Just Defense has following advantages : <strong>Small health recovery</strong> and <strong>Power gauge gain</strong> for each successful Just Defense activation. 
@@ -129,72 +146,194 @@
                      And multiple successive hits can be blocked from continuous Just Defends  rapidly like so, and it is possible to heal back into T.O.P. 
                      range and  reactivate it once more
                   </p>
-               </div>
+               </article>
    
                <figure class="w-full h-auto max-w-[480px] mx-auto bg-black sm:max-w-[640px] xl:w-[550px]">
                   <img src="assets/images/features/Just-Defense.gif" alt="Just Defense System demo" class="bg-contain mx-auto h-[225px] sm:h-[300px] md:h-[320px]">
                </figure>
             </div>
 
-            <div class="flex flex-col justicy-center items-center gap-5 xl:flex-row-reverse xl:mx-auto xl:gap-10">
-               <div class="xl:flex-1">
+            <div class="flex flex-col justicy-center items-center gap-5 xl:flex-row-reverse xl:mx-auto xl:gap-15">
+               <article class="xl:flex-1">
                   <h3 class="text-3xl mb-1 md:text-4xl">Breaking System</h3>
-                  <p class="text-justify xl:text-base xl:w-[550px]">
+                  <p class="text-justify xl:text-start xl:w-[550px] 2xl:w-[650px]">
                      The <strong>Breaking</strong> is an advanced technique for interrupting and countering your opponent's special attacks. To successfully perform a “Breaking”, 
                      the player must <strong>anticipate</strong> the special attack and perform a precise command at the moment the attack hits. If the “Breaking” is successful, 
                      the attack is cancelled and the player can counter-attack. Breaking adds a strategic dimension to combat, encouraging analysis and anticipation. 
                      Mastering “Breaking” is essential for <strong>punishing abuse</strong> of special attacks and creating combo opportunities. However, it is a risky technique 
                      that can leave the player vulnerable if it fails.
                   </p>
-               </div>
+               </article>
    
                <figure class="w-full h-auto max-w-[480px] mx-auto bg-black sm:max-w-[640px] xl:w-[550px]">
                   <img src="assets/images/features/Breaking.gif" alt="Breaking System demo" class="bg-contain mx-auto w-[300px] h-[225px] sm:w-[400px] sm:h-[300px] md:w-[454px] xl:w-[427px] md:h-[320px]">
                </figure>
             </div>
          </div>
-      </div>
+      </article>
    </section>
 
    <!-- ========== Marquee gallery ========== -->
    <div class="bg-red overflow-hidden">
-      <div class="marquee-gallery flex flex-row flew-nowrap whitespace-nowrap gap-4 py-[20px]">
-         <img src="assets/images/gallery/image-1.webp" alt="Gallery image" class="w-[280px] h-[auto] object-cover">
-         <img src="assets/images/gallery/image-2.webp" alt="Gallery image" class="w-[280px] h-[auto] object-cover">
-         <img src="assets/images/gallery/image-3.webp" alt="Gallery image" class="w-[280px] h-[auto] object-cover">
-         <img src="assets/images/gallery/image-4.webp" alt="Gallery image" class="w-[280px] h-[auto] object-cover">
-         <img src="assets/images/gallery/image-5.webp" alt="Gallery image" class="w-[280px] h-[auto] object-cover">
-         <img src="assets/images/gallery/image-6.webp" alt="Gallery image" class="w-[280px] h-[auto] object-cover">
-         <img src="assets/images/gallery/image-7.webp" alt="Gallery image" class="w-[280px] h-[auto] object-cover">
-         <img src="assets/images/gallery/image-8.webp" alt="Gallery image" class="w-[280px] h-[auto] object-cover">
-         <img src="assets/images/gallery/image-9.webp" alt="Gallery image" class="w-[280px] h-[auto] object-cover">
-         <img src="assets/images/gallery/image-10.webp" alt="Gallery image" class="w-[280px] h-[auto] object-cover">
-         <img src="assets/images/gallery/image-11.webp" alt="Gallery image" class="w-[280px] h-[auto] object-cover">
-         <img src="assets/images/gallery/image-12.webp" alt="Gallery image" class="w-[280px] h-[auto] object-cover">
-         <img src="assets/images/gallery/image-13.webp" alt="Gallery image" class="w-[280px] h-[auto] object-cover">
-         <img src="assets/images/gallery/image-14.webp" alt="Gallery image" class="w-[280px] h-[auto] object-cover">
-         <img src="assets/images/gallery/image-15.webp" alt="Gallery image" class="w-[280px] h-[auto] object-cover">
+      <ul class="marquee-gallery flex flex-row flew-nowrap whitespace-nowrap gap-4 py-[20px]">
+         <!-- List 1 -->
+         <li>
+            <figure class="w-[280px] h-[auto]">
+               <img src="assets/images/gallery/image-1.webp" alt="Gallery image" class="w-full h-full object-cover">
+            </figure>
+         </li>
+         <li>
+            <figure class="w-[280px] h-[auto]">
+               <img src="assets/images/gallery/image-2.webp" alt="Gallery image" class="w-full h-full object-cover">
+            </figure>
+         </li>
+         <li>
+            <figure class="w-[280px] h-[auto]">
+               <img src="assets/images/gallery/image-3.webp" alt="Gallery image" class="w-full h-full object-cover">
+            </figure>
+         </li>
+         <li>
+            <figure class="w-[280px] h-[auto]">
+               <img src="assets/images/gallery/image-4.webp" alt="Gallery image" class="w-full h-full object-cover">
+            </figure>
+         </li>
+         <li>
+            <figure class="w-[280px] h-[auto]">
+               <img src="assets/images/gallery/image-5.webp" alt="Gallery image" class="w-full h-full object-cover">
+            </figure>
+         </li>
+         <li>
+            <figure class="w-[280px] h-[auto]">
+               <img src="assets/images/gallery/image-6.webp" alt="Gallery image" class="w-full h-full object-cover">
+            </figure>
+         </li>
+         <li>
+            <figure class="w-[280px] h-[auto]">
+               <img src="assets/images/gallery/image-7.webp" alt="Gallery image" class="w-full h-full object-cover">
+            </figure>
+         </li>
+         <li>
+            <figure class="w-[280px] h-[auto]">
+               <img src="assets/images/gallery/image-8.webp" alt="Gallery image" class="w-full h-full object-cover">
+            </figure>
+         </li>
+         <li>
+            <figure class="w-[280px] h-[auto]">
+               <img src="assets/images/gallery/image-9.webp" alt="Gallery image" class="w-full h-full object-cover">
+            </figure>
+         </li>
+         <li>
+            <figure class="w-[280px] h-[auto]">
+               <img src="assets/images/gallery/image-10.webp" alt="Gallery image" class="w-full h-full object-cover">
+            </figure>
+         </li>
+         <li>
+            <figure class="w-[280px] h-[auto]">
+               <img src="assets/images/gallery/image-11.webp" alt="Gallery image" class="w-full h-full object-cover">
+            </figure>
+         </li>
+         <li>
+            <figure class="w-[280px] h-[auto]">
+               <img src="assets/images/gallery/image-12.webp" alt="Gallery image" class="w-full h-full object-cover">
+            </figure>
+         </li>
+         <li>
+            <figure class="w-[280px] h-[auto]">
+               <img src="assets/images/gallery/image-13.webp" alt="Gallery image" class="w-full h-full object-cover">
+            </figure>
+         </li>
+         <li>
+            <figure class="w-[280px] h-[auto]">
+               <img src="assets/images/gallery/image-14.webp" alt="Gallery image" class="w-full h-full object-cover">
+            </figure>
+         </li>
+         <li>
+            <figure class="w-[280px] h-[auto]">
+               <img src="assets/images/gallery/image-15.webp" alt="Gallery image" class="w-full h-full object-cover">
+            </figure>
+         </li>
 
-         <img src="assets/images/gallery/image-1.webp" alt="Gallery image" class="w-[280px] h-[auto] object-cover">
-         <img src="assets/images/gallery/image-2.webp" alt="Gallery image" class="w-[280px] h-[auto] object-cover">
-         <img src="assets/images/gallery/image-3.webp" alt="Gallery image" class="w-[280px] h-[auto] object-cover">
-         <img src="assets/images/gallery/image-4.webp" alt="Gallery image" class="w-[280px] h-[auto] object-cover">
-         <img src="assets/images/gallery/image-5.webp" alt="Gallery image" class="w-[280px] h-[auto] object-cover">
-         <img src="assets/images/gallery/image-6.webp" alt="Gallery image" class="w-[280px] h-[auto] object-cover">
-         <img src="assets/images/gallery/image-7.webp" alt="Gallery image" class="w-[280px] h-[auto] object-cover">
-         <img src="assets/images/gallery/image-8.webp" alt="Gallery image" class="w-[280px] h-[auto] object-cover">
-         <img src="assets/images/gallery/image-9.webp" alt="Gallery image" class="w-[280px] h-[auto] object-cover">
-         <img src="assets/images/gallery/image-10.webp" alt="Gallery image" class="w-[280px] h-[auto] object-cover">
-         <img src="assets/images/gallery/image-11.webp" alt="Gallery image" class="w-[280px] h-[auto] object-cover">
-         <img src="assets/images/gallery/image-12.webp" alt="Gallery image" class="w-[280px] h-[auto] object-cover">
-         <img src="assets/images/gallery/image-13.webp" alt="Gallery image" class="w-[280px] h-[auto] object-cover">
-         <img src="assets/images/gallery/image-14.webp" alt="Gallery image" class="w-[280px] h-[auto] object-cover">
-         <img src="assets/images/gallery/image-15.webp" alt="Gallery image" class="w-[280px] h-[auto] object-cover">
-      </div>
+         <!-- List 2 -->
+         <li>
+            <figure class="w-[280px] h-[auto]">
+               <img src="assets/images/gallery/image-1.webp" alt="Gallery image" class="w-full h-full object-cover">
+            </figure>
+         </li>
+         <li>
+            <figure class="w-[280px] h-[auto]">
+               <img src="assets/images/gallery/image-2.webp" alt="Gallery image" class="w-full h-full object-cover">
+            </figure>
+         </li>
+         <li>
+            <figure class="w-[280px] h-[auto]">
+               <img src="assets/images/gallery/image-3.webp" alt="Gallery image" class="w-full h-full object-cover">
+            </figure>
+         </li>
+         <li>
+            <figure class="w-[280px] h-[auto]">
+               <img src="assets/images/gallery/image-4.webp" alt="Gallery image" class="w-full h-full object-cover">
+            </figure>
+         </li>
+         <li>
+            <figure class="w-[280px] h-[auto]">
+               <img src="assets/images/gallery/image-5.webp" alt="Gallery image" class="w-full h-full object-cover">
+            </figure>
+         </li>
+         <li>
+            <figure class="w-[280px] h-[auto]">
+               <img src="assets/images/gallery/image-6.webp" alt="Gallery image" class="w-full h-full object-cover">
+            </figure>
+         </li>
+         <li>
+            <figure class="w-[280px] h-[auto]">
+               <img src="assets/images/gallery/image-7.webp" alt="Gallery image" class="w-full h-full object-cover">
+            </figure>
+         </li>
+         <li>
+            <figure class="w-[280px] h-[auto]">
+               <img src="assets/images/gallery/image-8.webp" alt="Gallery image" class="w-full h-full object-cover">
+            </figure>
+         </li>
+         <li>
+            <figure class="w-[280px] h-[auto]">
+               <img src="assets/images/gallery/image-9.webp" alt="Gallery image" class="w-full h-full object-cover">
+            </figure>
+         </li>
+         <li>
+            <figure class="w-[280px] h-[auto]">
+               <img src="assets/images/gallery/image-10.webp" alt="Gallery image" class="w-full h-full object-cover">
+            </figure>
+         </li>
+         <li>
+            <figure class="w-[280px] h-[auto]">
+               <img src="assets/images/gallery/image-11.webp" alt="Gallery image" class="w-full h-full object-cover">
+            </figure>
+         </li>
+         <li>
+            <figure class="w-[280px] h-[auto]">
+               <img src="assets/images/gallery/image-12.webp" alt="Gallery image" class="w-full h-full object-cover">
+            </figure>
+         </li>
+         <li>
+            <figure class="w-[280px] h-[auto]">
+               <img src="assets/images/gallery/image-13.webp" alt="Gallery image" class="w-full h-full object-cover">
+            </figure>
+         </li>
+         <li>
+            <figure class="w-[280px] h-[auto]">
+               <img src="assets/images/gallery/image-14.webp" alt="Gallery image" class="w-full h-full object-cover">
+            </figure>
+         </li>
+         <li>
+            <figure class="w-[280px] h-[auto]">
+               <img src="assets/images/gallery/image-15.webp" alt="Gallery image" class="w-full h-full object-cover">
+            </figure>
+         </li>
+      </ul>
     </div>
 
    <!-- ========== Characters section ========== -->
-   <section class="px-[15px] py-[60px] sm:px-[60px] xl:py-[100px] xl:pb-[150px]" id="characters">
+   <section class="px-[15px] py-[60px] sm:px-[60px] xl:py-[100px] xl:pb-[200px] xl:px-[80px]" id="characters">
       <div class="flex flex-col justify-center items-center">
          <h2 class="text-[32px] uppercase mb-5 md:mb-10 md:text-[42px]">Characters</h2>
 
@@ -212,7 +351,7 @@
                   </div>
 
                   <div class="relative xl:w-[550px]">
-                     <h3 class="character-name text-4xl font-extrabold uppercase mt-12 mb-1">Rock Howard</h3>
+                     <h3 class="character-name text-4xl font-extrabold uppercase mt-12 mb-1  xl:text-5xl 2xl:text-6xl">Rock Howard</h3>
 
                      <p class="character-bio text-justify sm:text-start sm:w-[600px] xl:w-auto">
                         The biological son of Geese Howard and protagonist of the game, has strong bonds with Terry Bogard,
@@ -236,24 +375,30 @@
       </div>
    </section>
 
-   <!-- ========== Available section ========== -->
-   <section class="bg-red px-[15px] py-[60px] sm:px-[60px] xl:py-[100px]" id="available">
-      <div class="">
+   <!-- ========== Buy section ========== -->
+   <section class="bg-red px-[15px] py-[60px] sm:px-[60px] xl:py-[100px] xl:px-[80px]" id="buy">
          <div class="flex flex-col justify-center items-center gap-5">
             <img src="assets/images/svg/logo.svg" alt="Garou Mark of the Wolves logo" class="w-auto h-[150px]">
 
-            <div class="">
-               <h2 class="text-4xl text-white text-center uppercase mb-4 text-textured">Available Now</h2>
+            <div>
+               <h2 class="text-4xl text-white text-center uppercase mb-4">Available Now</h2>
 
-               <div class="flex gap-5 mt-[-10px]">
-                  <a href="https://store.playstation.com/en-us/product/UP0571-CUSA13370_00-HAMPRDC000000001" class=""><img src="assets/images/svg/devices/playstation-logo.svg" alt="PlayStation logo"></a>
-                  <a href="https://www.xbox.com/en-us/games/store/GAROU-MOW/BT69B9T596D9" class=""><img src="assets/images/svg/devices/xbox-logo.svg" alt="Xbox logo"></a>
-                  <a href="https://www.nintendo.com/us/store/products/aca-neogeo-garou-mark-of-the-wolves-switch/" class=""><img src="assets/images/svg/devices/switch-logo.svg" alt="Switch logo"></a>
-                  <a href="https://store.steampowered.com/app/366240/GAROU_MARK_OF_THE_WOLVES/" class=""><img src="assets/images/svg/devices/steam-logo.svg" alt="Steam logo"></a>
-               </div>
+               <ul class="flex gap-5 mt-[-10px]">
+                  <li>
+                     <a href="https://store.playstation.com/en-us/product/UP0571-CUSA13370_00-HAMPRDC000000001"><img src="assets/images/svg/devices/playstation-logo.svg" alt="PlayStation logo"></a>
+                  </li>
+                  <li>
+                     <a href="https://www.xbox.com/en-us/games/store/GAROU-MOW/BT69B9T596D9"><img src="assets/images/svg/devices/xbox-logo.svg" alt="Xbox logo"></a>
+                  </li>
+                  <li>
+                     <a href="https://www.nintendo.com/us/store/products/aca-neogeo-garou-mark-of-the-wolves-switch/"><img src="assets/images/svg/devices/switch-logo.svg" alt="Switch logo"></a>
+                  </li>
+                  <li>
+                     <a href="https://store.steampowered.com/app/366240/GAROU_MARK_OF_THE_WOLVES/"><img src="assets/images/svg/devices/steam-logo.svg" alt="Steam logo"></a>
+                  </li>
+               </ul>
             </div>
          </div>
-      </div>
    </section>
 
    <!-- ========== Footer ========== -->
@@ -261,11 +406,14 @@
       <div class="flex flex-col justify-center items-center gap-5">
          <a href="https://www.snk-corp.co.jp/us/"><img src="assets/images/svg/socials/snk-logo.svg" alt="SNK logo" class="h-[45px]"></a>
 
-         <div class="flex gap-8">
-            <a href="#https://www.facebook.com/SNK.KOFWORLD/"><img src="assets/images/svg/socials/facebook-logo.svg" alt="Facebook logo" class="h-[28px]"></a>
-            <a href="https://x.com/SNKPofficial"><img src="assets/images/svg/socials/x-logo.svg" alt="X logo" class="h-[28px]"></a>
-            <!-- <a href="#"><img src="assets/images/svg/socials/instagram-logo.svg" alt="Instagram logo" class="h-[28px]"></a> -->
-         </div>
+         <ul class="flex gap-8">
+            <li>
+               <a href="#https://www.facebook.com/SNK.KOFWORLD/"><img src="assets/images/svg/socials/facebook-logo.svg" alt="Facebook logo" class="h-[28px]"></a>
+            </li>
+            <li>
+               <a href="https://x.com/SNKPofficial"><img src="assets/images/svg/socials/x-logo.svg" alt="X logo" class="h-[28px]"></a>
+            </li>
+         </ul>
 
          <p class="text-md text-white text-center text-sm">&copy;SNK CORPORATION ALL RIGHTS RESERVED.</p>
       </div>
