@@ -919,27 +919,6 @@
       transform: translateX(calc(-100% - 3000px));
     }
   }
-  @media screen and (min-width: 750px) {
-    @keyframes marquee {
-      from {
-        transform: translateX(0%);
-      }
-      to {
-        transform: translateX(calc(-400%));
-      }
-    }
-    .marquee-gallery {
-      animation-duration: 40s;
-    }
-    @keyframes marquee-gallery {
-      from {
-        transform: translateX(0%);
-      }
-      to {
-        transform: translateX(calc(-1000%));
-      }
-    }
-  }
 }
 @property --tw-rotate-x {
   syntax: "*";
